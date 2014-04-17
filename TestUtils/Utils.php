@@ -1,6 +1,6 @@
 <?php
 
-namespace libtest\TestUtils;
+namespace amb\libtest\TestUtils;
 
 class Utils
 {
