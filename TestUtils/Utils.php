@@ -6,6 +6,6 @@ class Utils
 {
 	public function helloWorld()
 	{
-		return 'hello world';
+		return 'it\'s a wonderful world';
 	}
 }
