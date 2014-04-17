@@ -1,6 +1,6 @@
 {
 	"name":"amb/libtest",
 	"autoload": {
-        "psr-0": {"amb": ""}
+        "psr-0": {"amb\libtest": ""}
     }
 }
