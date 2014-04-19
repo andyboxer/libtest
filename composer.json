@@ -1,6 +1,8 @@
 {
-	"name":"amb/libtest",
-	"autoload": {
-        "psr-0": {"amb\\libtest": "/../../"}
+    "name":"amb/libtest",
+    "autoload":{
+        "psr-0":{
+            "amb\\libtest":"/../../"
+        }
     }
 }

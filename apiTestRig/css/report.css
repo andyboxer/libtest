@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+th {background: #CCC; font-size: 1.2em; margin:0; padding:5px;color: #aa54a7;}
+tr:nth-child(even) {background: #DDD; font-size: 1em; padding: 2px;}
+tr:nth-child(odd) {background: #EEE; font-size: 1em; padding: 2px;}
+table { -moz-border-radius: 15px; border-radius: 15px;}
+.request-form {  -moz-border-radius: 7px; border-radius: 7px; padding: 10px; background: #EEE; }
+div.heading {  -moz-border-radius: 7px; border-radius: 7px; padding: 20px; background:  #DDD; color: #aa54a7; font-size: 1.2em; width: 600px; margin: 10px auto 10px auto; }
+div.home-link { position: absolute; float:left; color: #ffffde; padding: 5px; font-size: 1.2em;}
+.label {position: relative; float:left; color: #ffffde;}
+.control {position: relative; float: right; }
+input { font-size: 1.2em;}
+select { font-size: 1.2em;}
+.line {display: inline; width: 490px;}
+.title {text-align: center;}
+@CHARSET "UTF-8";
+button {width: 180px; margin: 10px auto 10px auto; font-size: 1.4em; background: #cfcfef; -moz-border-radius: 15px; border-radius: 15px;}
+.centered {margin: 20px auto; width: 45%;}
+.top-left {position: absolute; float: left; height: 100px; width: 100px; margin: 0 0 25px 25px;}
+body {background: url(../images/cat.jpg); background-size: 100%;}
