@@ -13,6 +13,7 @@ class Response
     public function __construct($curlInfo, $responseString)
     {
         $this->curlInfo = $curlInfo;
+        $this->rawResponse = $responseString;
         $this->parseHeaders(substr($responseString, 0, $curlInfo['header_size']));
         $this->parseResponse(substr($responseString, $curlInfo['header_size']));
     }
